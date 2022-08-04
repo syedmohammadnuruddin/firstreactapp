@@ -1,0 +1,29 @@
+.footer-container{
+    width: 90%;
+    margin: auto;
+}
+.footer{
+    background-color: #B71C1C;
+}
+.row{
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+.row .col-4{
+    text-align: center;
+    width: 30%;
+}
+.row .col-4 h2{
+    font-size: 30px;
+    color: burlywood;
+    margin-bottom: 10px;
+}
+.row .col-4 p{
+    font-size: 18px;
+    color: burlywood;
+    margin-bottom: 20px;
+}
+.row .col-4.third-col p{
+    padding-bottom: 20px;
+}

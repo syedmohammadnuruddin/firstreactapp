@@ -1,0 +1,22 @@
+.foodlist .container{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 50px 80px;
+    background-color: bisque;
+    
+}
+.foodlist .container .row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+.foodlist .container .row .food{
+    text-align: center;
+}
+.foodlist .container .row .food h3{
+    font-size: 22px;
+}
+.foodlist .container .row .food p{
+    font-size: 20px;
+}

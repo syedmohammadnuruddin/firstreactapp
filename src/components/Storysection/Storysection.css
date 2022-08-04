@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.storysection{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.storysection .container img{
+    height: 650px;
+    position: relative;
+}
+.story{
+    position: absolute;
+    top: 180px;
+    right: 50px;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.story h2 {
+    font-size: 41px;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+.story h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.story p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.story button {
+    background-color: blanchedalmond;
+    padding: 15px 20px;
+}
+
+.story button a {
+    font-size: 18px;
+    text-decoration: none;
+}
